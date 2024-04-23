@@ -22,7 +22,7 @@ User.create(name: "John Doe", email: "john.doe@example.com", password: "password
   )
 end
 
-tag_names = ["Funny", "Sad", "Art", "Food", "Travel"]
+tag_names = ["Tag 1", "Tag 2", "Tag 3", "Tag 4", "Tag 5"]
 tag_names.each do |name|
   Tag.find_or_create_by(name: name)
 end
